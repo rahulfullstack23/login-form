@@ -2,10 +2,12 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      navbar
+   <nav className="navbar navbar-dark bg-dark">
+    <div className="container">
+      <span className="navbar-brand">My Website</span>
     </div>
+   </nav>
   )
 }
 
-export default Navbar
+export default Navbar;
